@@ -1,0 +1,18 @@
+.about-box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.title{
+    width:40%;
+    margin-right: 4px;
+    padding: 3px;
+}
+
+h3{
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #f78e06;
+
+}

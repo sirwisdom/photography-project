@@ -1,0 +1,85 @@
+.gallery-div{
+    background: #f5f5f7;
+    margin-top: 4em;
+    margin-bottom: 5em;
+    height: 100vh;
+    width: 80%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 2fr);
+    grid-template-areas: 
+    "one one four four four four"
+    "one one four four four four"
+    "one one four four four four"
+    "two two two five five five"
+    "two two two five five five"
+    "two two two five five five"
+    "two two two five five five"
+    "six six six seven seven seven"
+    "six six six seven seven seven"
+    "six six six seven seven seven"
+    "six six six seven seven seven"
+    ;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #f78e06;
+}
+
+.proj-1{
+      grid-area: one;
+    background: url(../images/project-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.proj-2{
+    grid-area: two;
+    background: url(../images/project-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.proj-3{
+    grid-area: three;
+    background: url(../images/project-3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.proj-4{
+    grid-area: four;
+    background: url(../images/project-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.proj-5{
+    grid-area: five;
+    background: url(../images/project-5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.proj-6{
+    grid-area: six;
+    background: url(../images/project-6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.proj-7{
+    grid-area: seven;
+    background: url(../images/project-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.proj-8{
+    grid-area: eight;
+    background: url(../images/project-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* @media (min-width : 760px){
+    .gallery-div{
+        display: flex;
+    }
+} */
