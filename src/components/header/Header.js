@@ -1,21 +1,25 @@
-import React from 'react'
-import './Header.css'
+import React from "react";
 
 export default function Header() {
-    return (
-        <div>
-            <header>
-                <nav>
-                    <ul>
-                        <li>About</li>
-                        <li>Galery</li>
-                    </ul>
-                </nav>
-                <div className='header-text'>
-                <h1>Photography at it's Peak</h1>
-                <h4>We deliver superior quality photography, that makes us stand out</h4>
-                </div>
-            </header>
+  return (
+    <div>
+      <header>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Galery</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+        <div className="hero-header">
+          <h1>Photography at it's Peak</h1>
+          <h3>
+            We deliver superior quality photography services, that makes us
+            stand out
+          </h3>
         </div>
-    )
+      </header>
+    </div>
+  );
 }
